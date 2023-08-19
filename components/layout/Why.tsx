@@ -5,16 +5,9 @@ const posts = [
       href: '#',
       description:
         'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-      date: 'Mar 16, 2020',
-      datetime: '2020-03-16',
-      category: { title: 'Marketing', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
+    
+      category: { title: 'Innovation', href: '#' },
+    
     },
     {
         id: 2,
@@ -22,16 +15,9 @@ const posts = [
         href: '#',
         description:
           'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-        date: 'Mar 16, 2020',
-        datetime: '2020-03-16',
-        category: { title: 'Marketing', href: '#' },
-        author: {
-          name: 'Michael Foster',
-          role: 'Co-Founder / CTO',
-          href: '#',
-          imageUrl:
-            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-        },
+      
+        category: { title: 'Sécuriser', href: '#' },
+       
       },
       {
         id: 3,
@@ -39,16 +25,9 @@ const posts = [
         href: '#',
         description:
           'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-        date: 'Mar 16, 2020',
-        datetime: '2020-03-16',
-        category: { title: 'Marketing', href: '#' },
-        author: {
-          name: 'Michael Foster',
-          role: 'Co-Founder / CTO',
-          href: '#',
-          imageUrl:
-            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-        },
+      
+        category: { title: 'Assistance', href: '#' },
+      
       },
       {
         id: 4,
@@ -56,16 +35,9 @@ const posts = [
         href: '#',
         description:
           'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-        date: 'Mar 16, 2020',
-        datetime: '2020-03-16',
-        category: { title: 'Marketing', href: '#' },
-        author: {
-          name: 'Michael Foster',
-          role: 'Co-Founder / CTO',
-          href: '#',
-          imageUrl:
-            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-        },
+       
+        category: { title: 'Flexibilité et stabilité', href: '#' },
+       
       },
       {
         id: 5,
@@ -73,16 +45,9 @@ const posts = [
         href: '#',
         description:
           'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-        date: 'Mar 16, 2020',
-        datetime: '2020-03-16',
-        category: { title: 'Marketing', href: '#' },
-        author: {
-          name: 'Michael Foster',
-          role: 'Co-Founder / CTO',
-          href: '#',
-          imageUrl:
-            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-        },
+        
+        category: { title: 'Une expertise métier', href: '#' },
+       
       },
       {
         id: 6,
@@ -90,16 +55,9 @@ const posts = [
         href: '#',
         description:
           'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-        date: 'Mar 16, 2020',
-        datetime: '2020-03-16',
-        category: { title: 'Marketing', href: '#' },
-        author: {
-          name: 'Michael Foster',
-          role: 'Co-Founder / CTO',
-          href: '#',
-          imageUrl:
-            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-        },
+     
+        category: { title: 'Accessibilité', href: '#' },
+       
       },
     // More posts...
   ]
@@ -108,7 +66,7 @@ const posts = [
     return (
       <div className="bg-white py-12">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="z-10 w-full py-8 px-2 xl:px-0">
+        {/* <div className="z-10 w-full py-8 px-2 xl:px-0">
         <a
           href="https://twitter.com/steventey/status/1613928948915920896"
           target="_blank"
@@ -120,9 +78,29 @@ const posts = [
           </p>
           
         </a>
-        
-      </div>
-      
+         
+      </div> */}
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-2xl lg:text-center">
+        <a
+          href="https://twitter.com/steventey/status/1613928948915920896"
+          target="_blank"
+          rel="noreferrer"
+          className="mx-auto mb-5 flex max-w-fit animate-fade-up items-center justify-center space-x-2 overflow-hidden rounded-full bg-blue-100 px-7 py-2 transition-colors hover:bg-blue-200"
+        >
+          <p className="text-base font-semibold text-[#1d9bf0]">
+          Pourquoi choisir ?
+          </p>
+        </a>
+          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          Pourquoi choisir la plateforme BESC JLS WORLD
+          </p>
+          <p className="mt-6 text-lg leading-8 text-gray-600">
+            Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
+            pulvinar et feugiat blandit at. In mi viverra elit nunc.
+          </p>
+        </div>
+        </div> <br/> <br/>
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16  lg:mx-0 lg:max-w-none lg:grid-cols-3">
             {posts.map((post) => (
               <article key={post.id} className="flex max-w-xl flex-col items-start justify-between">
