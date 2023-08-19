@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore from 'swiper';
 // Import Swiper styles
 import 'swiper/css';
-import image from '../../public/image/photo2.png'
+import image from '@/app/image/Photo2.png'
 export default function Section1() {
 
     // SwiperCore.use([Autoplay])
