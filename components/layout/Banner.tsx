@@ -22,9 +22,7 @@ export default function Section1() {
         <div className="mx-auto max-w-screen-xl w-full">
           
 
-            <Swiper
-                loop={true} 
-                >
+            <Swiper>
                 <SwiperSlide>{ Slide() }</SwiperSlide>
                 <SwiperSlide>{ Slide() }</SwiperSlide>
                 <SwiperSlide>{ Slide() }</SwiperSlide>
