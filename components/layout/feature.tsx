@@ -10,7 +10,7 @@ import Typography from '@mui/material/Typography'
 import CircularProgress from '@mui/material/CircularProgress'
 import LinearProgress, { linearProgressClasses } from '@mui/material/LinearProgress'
 import { data } from './feature.data'
-import image from '../../public/image/illu.jpg'
+import image from '@/app/image/illu.jpg'
 interface LinearProgressProps {
   order: number
 }
