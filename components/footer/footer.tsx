@@ -86,14 +86,14 @@ function Footer() {
 					</ul>
 				</div>
 			</div>
-			<div className="flex flex-col justify-center items-center text-center  bg-gray-50">
+			{/* <div className="flex flex-col justify-center items-center text-center  bg-gray-50">
 				<h1 className=" text-gray-800 font-semibold">
 					© 2023 All rights reserved | Build with ❤ by{" "}
 					<span className="hover:text-blue-600 font-semibold cursor-pointer">
 						nom-entreprise{" "}
 					</span>
 				</h1>
-			</div>
+			</div> */}
 		</>
 	);
 }

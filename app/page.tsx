@@ -8,6 +8,7 @@ export default async function Home() {
   return (
     <>
       <div className="z-10 w-full py-8 px-2 xl:px-0">
+      <div className="mx-auto max-w-2xl lg:text-center">
         <a
           href="https://twitter.com/steventey/status/1613928948915920896"
           target="_blank"
@@ -25,7 +26,7 @@ export default async function Home() {
           <Balancer>A Propos de JLS WORLD</Balancer>
         </h1>
         <p
-          className="mt-6 animate-fade-up text-center text-gray-500 opacity-0 md:text-xl"
+          className="mt-6 animate-fade-up text-center text-gray-600 opacity-0 md:text-xl"
           style={{ animationDelay: "0.25s", animationFillMode: "forwards" }}
         >
           <Balancer>
@@ -36,7 +37,7 @@ export default async function Home() {
           </Balancer>
          
         </p>
-       
+        </div>
       </div>
     
     </>
