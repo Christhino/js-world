@@ -11,6 +11,7 @@ import What from "@/components/layout/What";
 import HomeFeature from "@/components/layout/feature";
 import Solution from "@/components/layout/Solution";
 import Why from "@/components/layout/Why";
+import Blog from "@/components/Actualite";
 
 
 
@@ -52,6 +53,7 @@ export default async function RootLayout({
           <HomeFeature/>
           <Solution/>
           <Why/>
+          <Blog/>
         <Footer />
         <Analytics />
       </body>
