@@ -186,25 +186,11 @@ const HomeFeature: FC = () => {
             <Grid container spacing={2} sx={{ ml: { xs: 0, md: 2 } }}>
               {data.map(({ title, description, icon }, index) => (
                 <Grid key={String(index)} item xs={12} md={6}>
-                  <Box sx={{ px: 2, py: 1.5, boxShadow: 1, borderRadius: 4, display: 'flex', alignItems: 'center' }}>
-                    <Box
-                      sx={{
-                        mr: 1,
-                        backgroundColor: 'primary.main',
-                        borderRadius: '50%',
-                        height: 36,
-                        width: 36,
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        color: 'primary.contrastText',
-                        '& svg': {
-                          fontSize: 20,
-                        },
-                      }}
-                    >
+                  <Box sx={{ px: 2, py: 1.5, boxShadow: 1, borderRadius: 4, display: 'flex', alignItems: 'center', height:'150px' }}>
+                    <div className="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold rounded-full bg-blue-50 text-blue-500 m-8" style={{ margin: "8px"}}>
                       {icon}
-                    </Box>
+                    </div>
+
                     <Box sx={{ display: 'flex', flex: 1, flexDirection: 'column' }}>
                       <Typography variant="h6" sx={{ fontSize: '1rem', mb: 1, color: 'secondary.main' }}>
                         {title}
