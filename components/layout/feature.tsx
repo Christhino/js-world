@@ -5,6 +5,7 @@ import Image from 'next/image'
 import Box from '@mui/material/Box'
 import Grid from '@mui/material/Grid'
 import { styled } from '@mui/material/styles'
+import Balancer from "react-wrap-balancer";
 import Container from '@mui/material/Container'
 import Typography from '@mui/material/Typography'
 import CircularProgress from '@mui/material/CircularProgress'
@@ -155,8 +156,13 @@ const HomeFeature: FC = () => {
                 lineHeight: 1,
                 fontWeight: 'bold',
               }}
-            >
-              Comment faire
+            > 
+            <h1
+              className="animate-fade-up bg-gradient-to-br from-black to-stone-500 bg-clip-text text-center font-display text-4xl font-bold tracking-[-0.02em] text-transparent opacity-0 drop-shadow-sm md:text-7xl md:leading-[5rem]"
+              style={{ animationDelay: "0.15s", animationFillMode: "forwards" }}
+            >   <Balancer>  Comment faire </Balancer> </h1>
+          
+              
               <Typography
                 component="mark"
                 sx={{
