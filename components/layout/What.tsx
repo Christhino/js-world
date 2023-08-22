@@ -2,7 +2,7 @@ import { CalendarDaysIcon, HandRaisedIcon } from '@heroicons/react/24/outline'
 
 export default function What() {
   return (
-     <div  className="flex  w-full flex-col items-center justify-center">
+     <div  className="flex  w-full flex-col items-center justify-center" >
      
      <div className="z-10 w-full py-8 px-2 xl:px-0">
         <a

@@ -17,7 +17,7 @@ const features = [
 
 export default function Solution() {
   return (
-    <div className="bg-white">
+    <div className="bg-white" id="Nos solutions">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
         <a

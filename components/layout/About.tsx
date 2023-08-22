@@ -38,7 +38,7 @@ export default  function About() {
   
    return (
     <>
-      <section className="mx-5  px-5"  >
+      <section className="mx-5  px-5"  id="A Propos">
         <div className="mx-auto max-w-screen-xl w-full">
           <div className="grid md:grid-cols-2">
           

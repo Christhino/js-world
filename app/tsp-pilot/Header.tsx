@@ -11,7 +11,7 @@ export default function Header() {
   const header_content = {
     logo: {
       title: "TSP Pilot",
-      path: "@public/image/Icon.svg",
+      path: "/images/Icon.svg",
     },
     menu: [
       {
@@ -97,7 +97,10 @@ export default function Header() {
                   className="cursor-pointer transition hover:text-blue-600"
                   key={i}
                 >
-                  {item?.title}
+                  {/* {item?.title} */}
+                  <a href={`#${item.title}`} className="hover:text-blue-500">
+                    {item?.title}
+                  </a>
                 </li>
               ))}
           </ul>
